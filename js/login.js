@@ -5,7 +5,7 @@ function validate(){
 	var password = document.getElementById("pwd").value;
 	if ( username == "divaymohan05@gmail.com" && password == "divay123"){
 		alert ("Login successfully");
-		window.location = "../questions/navigator.html"; // Redirecting to other page.
+		window.location = "../AfterLogin/navigator.html"; // Redirecting to other page.
 		return false;
     }
 	else{
